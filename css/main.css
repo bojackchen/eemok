@@ -11,6 +11,7 @@ body {
 }
 
 #content {
+  margin-bottom: 100px;
   min-height: 1024px;
 }
 
@@ -27,7 +28,6 @@ paperaward {
   font-family: Montserrat, "Microsoft YaHei UI Light", sans-serif;
   font-weight: bold;
   font-variant: small-caps;
-  font-size: 36px;
   letter-spacing: 4px;
   color: #003974;
 }
