@@ -5,6 +5,11 @@ body {
   text-align: justify;
 }
 
+.jumbotron h2 {
+  font-family: Montserrat, "Microsoft YaHei UI Light", sans-serif;
+  letter-spacing: 4px;
+}
+
 .jumbotron p {
   font-size: 16px;
   margin-bottom: 4px;
@@ -16,8 +21,8 @@ body {
 }
 
 paperaward {
-    color: #A78337;
-    font-weight: bold;
+  color: #A78337;
+  font-weight: bold;
 }
 
 .list-group a {
