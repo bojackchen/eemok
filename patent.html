@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head information -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="IPEL, ECE, HKUST, Power Management, Integrated Circuit, PMIC">
+  <meta name="description" content="The official website for the Integrated Power Electronics Laboratory (IPEL)">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="cache-control" content="no-cache, must-revalidate">
+  <title>Philip MOK</title>
+
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="shortcut icon" type="image/ico" href="../favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Lato">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>$(function() {
+    $("#navigation").load("include/navbar.html");
+    $("#jumbotron").load("include/jumbotron.html");
+    $("#footer").load("include/footer.html");
+    $("#patent").load("publicationlist/patent.html");
+  });</script>
+</head>
+
+<!-- body information -->
+<body id="ipel">
+
+<!-- header information -->
+<header>
+<!-- navigation bar -->
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="80" id="navigation"></nav>
+</header>
+
+<!-- jumbotron content -->
+<div class="jumbotron" id="jumbotron"></div>
+
+<div class="container" id="content">
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xl-12">
+      <div class="page-header">
+        <h2>Navigation</h2>
+      </div>
+      <ul class="list-group">
+        <a href="biography.html"><li class="list-group-item">Biography</li></a>
+        <a href="research.html"><li class="list-group-item">Research Areas and Projects</li></a>
+        <a href="journal.html"><li class="list-group-item">Journal Publications</li></a>
+        <a href="conference.html"><li class="list-group-item">Conference Publications</li></a>
+        <a href="patent.html"><li class="list-group-item active">Patents Granted</li></a>
+        <a href="activity.html"><li class="list-group-item">Professional Activities</li></a>
+      </ul>
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+      <div class="page-header">
+        <h2>Patents Granted</h2>
+      </div>
+      <div id="patent"></div>
+    </div>
+  </div>
+</div>
+
+<!-- footer information -->
+<footer id="footer"></footer>
+
+</body>
+
+</html>

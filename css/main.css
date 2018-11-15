@@ -1,0 +1,55 @@
+body {
+  font: 400 15px Lato, "Microsoft YaHei UI Light", sans-serif;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  text-align: justify;
+}
+
+.jumbotron p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#content {
+  min-height: 1024px;
+}
+
+paperaward {
+    color: #A78337;
+    font-weight: bold;
+}
+
+.list-group a {
+  text-decoration: none;
+}
+
+.page-header h2 {
+  font-family: Montserrat, "Microsoft YaHei UI Light", sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 36px;
+  letter-spacing: 4px;
+  color: #003974;
+}
+
+footer {
+  background-color: #A78337;
+  color: #FFF;
+  padding-bottom: 4px;
+}
+
+footer span {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #FFF;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer img {
+  width: 100%;
+  height: auto;
+  max-height: 50px;
+}
